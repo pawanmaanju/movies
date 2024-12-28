@@ -11,7 +11,7 @@ def is_enabled(value, default):
     else:
         return default
 #---------------------------------------------------------------
-#---------------------------------------------------------------         ,
+#---------------------------------------------------------------         
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21174134'))
 API_HASH = environ.get('API_HASH', '3d7f8c4ee4978228f411bbd04f2eea73')
